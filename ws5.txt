@@ -1272,4 +1272,71 @@ kormanik@f6linuxA4:~/ws5$ [?25l[30m[42m[24;1H[0] 0:bash*                    
 44538579.txt  50150483.txt  51357939.txt  52631742.txt  53070662.txt
 44657626.txt  50175632.txt  51359947.txt  52639757.txt  53071109.txt
 44731169.txt  50178145.txt  51362690.txt  52640872.txt  53071138.txt
-44761874.txt  50199793.txt  513
+44761874.txt  50199793.txt  51366396.txt  52643745.txt  53071190.txt
+44776887.txt  50200864.txt  51376733.txt  52644129.txt  53072811.txt
+44806789.txt  50221812.txt  51378626.txt  52649455.txt  53073369.txt
+44819611.txt  50223242.txt  51379338.txt  52651244.txt  53074803.txt
+45041039.txt  50237277.txt  51380442.txt  52653706.txt  53075086.txt
+45042957.txt  50245100.txt  51381608.txt  52660802.txt  53075795.txt
+45088744.txt  50262576.txt  51388692.txt  52660946.txt  53078987.txt
+45180289.txt  50264364.txt  51388751.txt  52683195.txt  53079427.txt
+45193257.txt  50270744.txt  51394793.txt  52687412.txt  53080622.txt
+45245794.txt  50287514.txt  51395538.txt  52692817.txt  53082946.txt
+45273033.txt  50289674.txt  51403161.txt  52693037.txt  53084041.txt
+45284807.txt  50302730.txt  51406912.txt  52693154.txt  53084107.txt
+45339081.txt  50320963.txt  51409347.txt  52697458.txt  53084718.txt
+45344448.txt  50323648.txt  51616072.txt  52697971.txt  53087372.txt
+45460192.txt  50332419.txt  51624230.txt  52700359.txt  53087799.txt
+45761633.txt  50334423.txt  51631879.txt  52705209.txt  53089838.txt
+45761937.txt  50366777.txt  51636710.txt  52706646.txt  53092367.txt
+45775115.txt  50368037.txt  51639711.txt  52708799.txt  53092736.txt
+45814424.txt  50372990.txt  51643689.txt  52709697.txt  53093124.txt
+45838740.txt  50375720.txt  51645455.txt  52712162.txt  53096155.txt
+]0;kormanik@f6linuxA4: ~/ws5/CUSTOMERS[01;32mkormanik@f6linuxA4[00m:[01;34m~/ws5/CUSTOMERS[00m$ history > cmds[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd
+]0;kormanik@f6linuxA4: ~[01;32mkormanik@f6linuxA4[00m:[01;34m~[00m$ cd ws5
+]0;kormanik@f6linuxA4: ~/ws5[01;32mkormanik@f6linuxA4[00m:[01;34m~/ws5[00m$ history > cmds.log
+]0;kormanik@f6linuxA4: ~/ws5[01;32mkormanik@f6linuxA4[00m:[01;34m~/ws5[00m$ ls
+1000customers.txt  [0m[01;34mCUSTOMERS[0m  cmds.log  ws5.txt
+]0;kormanik@f6linuxA4: ~/ws5[01;32mkormanik@f6linuxA4[00m:[01;34m~/ws5[00m$ git init
+Initialized empty Git repository in /home/kormanik/ws5/.git/
+]0;kormanik@f6linuxA4: ~/ws5[01;32mkormanik@f6linuxA4[00m:[01;34m~/ws5[00m$ git init
+Reinitialized existing Git repository in /home/kormanik/ws5/.git/
+]0;kormanik@f6linuxA4: ~/ws5[01;32mkormanik@f6linuxA4[00m:[01;34m~/ws5[00m$ git add ws5.txt
+]0;kormanik@f6linuxA4: ~/ws5[01;32mkormanik@f6linuxA4[00m:[01;34m~/ws5[00m$ git add cmds.log
+]0;kormanik@f6linuxA4: ~/ws5[01;32mkormanik@f6linuxA4[00m:[01;34m~/ws5[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   cmds.log[m
+	[32mnew file:   ws5.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m1000customers.txt[m
+	[31mCUSTOMERS/[m
+
+]0;kormanik@f6linuxA4: ~/ws5[01;32mkormanik@f6linuxA4[00m:[01;34m~/ws5[00m$ git commit -m "Commit for a[Kws5.txt and cmds.log"
+[master (root-commit) f754340] Commit for ws5.txt and cmds.log
+ 2 files changed, 1293 insertions(+)
+ create mode 100644 cmds.log
+ create mode 100644 ws5.txt
+]0;kormanik@f6linuxA4: ~/ws5[01;32mkormanik@f6linuxA4[00m:[01;34m~/ws5[00m$ git remote add origin https://github.com/apkormanik/ws5.git
+]0;kormanik@f6linuxA4: ~/ws5[01;32mkormanik@f6linuxA4[00m:[01;34m~/ws5[00m$ git branch -M main
+]0;kormanik@f6linuxA4: ~/ws5[01;32mkormanik@f6linuxA4[00m:[01;34m~/ws5[00m$ git push -u origin main
+Username for 'https://github.com': apkormanik
+Password for 'https://apkormanik@github.com': 
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 80 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 9.81 KiB | 9.81 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/apkormanik/ws5.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+]0;kormanik@f6linuxA4: ~/ws5[01;32mkormanik@f6linuxA4[00m:[01;34m~/ws5[00m$ vi[K[Kexit
+
+Script done on 2021-10-02 03:46:31+00:00 [COMMAND_EXIT_CODE="0"]
